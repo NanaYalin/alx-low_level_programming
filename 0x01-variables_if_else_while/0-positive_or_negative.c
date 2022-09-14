@@ -4,8 +4,8 @@
 
 /**
  * main - print the number stored in the variable n
- * as positive or negative
- * Return: Always 0 (sucess)
+ *        as positive or negative
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -19,8 +19,6 @@ int main(void)
 	}
 	if (n < 0)
 	{
-
-
 		printf("%d is negative\n", n);
 	}
 	if (n == 0)

@@ -1,10 +1,9 @@
 #include <stdio.h>
-
 /**
- * main-print exactly
- * '"Programming is like building a multilingual puzzle',
- * follow by a new line
- * Return: Always 0 (Sucess)
+ * main - prints exactly
+ *        '"Programming is like building a multilingual puzzle',
+ *        followed by a new line
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
