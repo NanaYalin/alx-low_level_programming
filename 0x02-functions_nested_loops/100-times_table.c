@@ -26,8 +26,8 @@ void print_times_table(int n)
 				result = digit * mult;
 				if (result <= 99)
 					_putchar(' ');
-				
-		        	if (result <= 9)
+
+		   	if (result <= 9)
 					_putchar(' ');
 				if (result >= 100)
 				{
