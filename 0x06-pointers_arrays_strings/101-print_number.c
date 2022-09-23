@@ -1,11 +1,22 @@
 #include "main.h"
 
 /**
- * set_string -  sets a string
- * @s: string to set
- * @to: value to set to
+ * print_number - prints an integer
+ * @n: integer to be printed
+ *
  */
-void set_string(char **s, char *to)
+void print_number(int n)
 {
-	*s = to;
+	unsigned int num = n;
+
+	if (n < 0)
+	{
+		_putchar('-');
+		num = -num;
+	}
+
+	if ((num / 10) > 0)
+		print_number(num / 10);
+
+	_putchar((num % 10) + '0');
 }
