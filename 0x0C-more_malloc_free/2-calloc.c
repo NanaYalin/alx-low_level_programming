@@ -7,6 +7,8 @@
  * @size: size in bytes of the elements
  *
  * Return: void pointer to allocated memory
+ * if nmemb or size is 0, returns NULL.
+ * if malloc fails, returns NULL.
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
@@ -22,7 +24,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		return (NULL);
 
 	for (i = 0; i < (nmemb * size); i++)
-		p{i} = 0;
+		p[i] = 0;
 
 	return (p);
 }
