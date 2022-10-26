@@ -19,8 +19,10 @@ size_t looped_listint_len(const listint_t *head)
 	const listint_t *tortoise, *hare;
 	size_t nodes = 1;
 
+
 	if (head == NULL || head->next == NULL)
 		return (0);
+
 
 	tortoise = head->next;
 	hare = (head->next)->next;
